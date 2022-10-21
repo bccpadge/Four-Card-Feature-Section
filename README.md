@@ -28,8 +28,8 @@ Users should be able to:
 ![](./screenshots/desktop.png)
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/four-card-feature-section-using-css-grid-mGYIfOhvL2)
+- Live Site URL: [Github Pages](https://bccpadge.github.io/Four-Card-Feature-Section/)
 
 ## My process
 
