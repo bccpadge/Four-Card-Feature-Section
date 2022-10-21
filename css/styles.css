@@ -105,8 +105,14 @@ body{
   font-family: var(--ff-poppins);
   background-color: var(--light-gray-color);
   color: var(--grayish-blue-color);
-  width: 80%;
-  margin-inline: auto;
+  max-width: 90rem;
+ margin: 0 auto;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding: 1rem;
+
 }
 
 h1{
@@ -127,13 +133,10 @@ h2{
 
 /* HEADER */
 .header{
-  margin-block-start: 4.375rem;
-  max-width: 31.25rem;
+  max-width: 100%;
   margin-inline: auto;
   text-align: center;
 }
-
-
 
 .subtitle{
   font-weight: var(--fw-600);
@@ -231,13 +234,21 @@ main{
     grid-area: team-builder;
   }
 
-
-  .card {
-    max-height: 15rem;
-  }
-
   .card img{
     width: 3.125rem;
     padding-block-start: 3rem;
+  }
+}
+
+@media (min-width: 75em){
+.description{
+  max-width: 31.25rem;
+}
+ .card{
+    width: 18.75rem;
+ }
+
+  .card-description{
+    font-size: 0.875rem;
   }
 }
